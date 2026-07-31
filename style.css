@@ -113,7 +113,7 @@ a{
 
     border-radius:12px;
 
-    font-size:2rem;
+    font-size:2.5rem;
 
 }
 .cv{
@@ -128,7 +128,7 @@ a{
 
     border-radius:12px;
 
-    font-size:2rem;
+    font-size:2.5rem;
 
 }
 
@@ -306,7 +306,7 @@ a{
 
 /* Heading */
 .about-card h2{
-    font-size:3.5rem;
+    font-size:4rem;
     color:#59c489;
     margin-bottom:25px;
 
@@ -335,7 +335,7 @@ a{
 
 /* Paragraph */
 .about-card p{
-    font-size:1.3rem;
+    font-size:1.8rem;
     color:#6B7280;
     line-height:1.8;
     margin-bottom:20px;
@@ -493,7 +493,7 @@ body {
 
     gap: 12px;
 
-    font-size: 4rem;
+    font-size: 4.5rem;
 
     line-height: 1.2;
 
@@ -589,7 +589,7 @@ body {
 
     color: #667085;
 
-    font-size: 1.2rem;
+    font-size: 1.7rem;
 
     line-height: 1.8;
 
@@ -680,7 +680,7 @@ body {
 
     color: #111827;
 
-    font-size: 1rem;
+    font-size: 1.5rem;
 
     font-weight: 600;
 
@@ -893,7 +893,7 @@ body {
 
     .skills-heading {
 
-        font-size: 3.2rem;
+        font-size: 3.7rem;
 
     }
 
@@ -926,7 +926,7 @@ body {
 
     .skills-heading {
 
-        font-size: 2.6rem;
+        font-size: 3rem;
 
         gap: 8px;
 
@@ -934,7 +934,7 @@ body {
 
     .skills-subtitle {
 
-        font-size: 0.9rem;
+        font-size: 1.4rem;
 
     }
 
@@ -946,7 +946,7 @@ body {
 
     .section-title {
 
-        font-size: 1.7rem;
+        font-size: 2.2rem;
 
         margin-bottom: 30px;
 
@@ -962,7 +962,7 @@ body {
 
         padding: 16px 24px;
 
-        font-size: 0.9rem;
+        font-size: 1.4rem;
 
     }
 
@@ -1083,7 +1083,7 @@ body {
 
     gap: 12px;
 
-    font-size: 4rem;
+    font-size: 4.5rem;
 
     line-height: 1.2;
 
@@ -1179,7 +1179,7 @@ body {
 
     color: #667085;
 
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 
     line-height: 1.8;
 
@@ -1317,7 +1317,7 @@ body {
 
 .contact-intro {
     color: #667085;
-    font-size: 1.05rem;
+    font-size: 1.2rem;
     line-height: 1.8;
 }
 
@@ -1363,7 +1363,7 @@ body {
 
 .card-label {
     color: #59c489;
-    font-size: 0.78rem;
+    font-size: 1.3rem;
     letter-spacing: 3px;
     font-weight: 700;
     margin-bottom: 18px;
@@ -1371,7 +1371,7 @@ body {
 
 
 .contact-card h2 {
-    font-size: 2.1rem;
+    font-size: 2.5rem;
     line-height: 1.3;
     margin-bottom: 20px;
 }
@@ -1431,7 +1431,7 @@ body {
 
     border-radius: 14px;
 
-    font-size: 1.1rem;
+    font-size: 1.4rem;
 }
 
 
@@ -1460,7 +1460,7 @@ body {
     margin-top: 35px;
     margin-bottom: 15px;
 
-    font-size: 0.9rem;
+    font-size: 1.4rem;
     font-weight: 600;
     color: #111827;
 }
@@ -1496,7 +1496,7 @@ body {
 
 
 .social i {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
 
 
@@ -1553,14 +1553,14 @@ body {
 
     color: #59c489;
 
-    font-size: 1.3rem;
+    font-size: 1.5rem;
 }
 
 
 .form-heading p {
     color: #59c489;
 
-    font-size: 0.7rem;
+    font-size: 1.2rem;
 
     letter-spacing: 2px;
 
@@ -1569,7 +1569,7 @@ body {
 
 
 .form-heading h2 {
-    font-size: 1.7rem;
+    font-size: 2rem;
 }
 
 
@@ -1592,7 +1592,7 @@ body {
 
 
 .input-group label {
-    font-size: 0.85rem;
+    font-size: 1.4rem;
     font-weight: 600;
     margin-bottom: 8px;
 }
@@ -1612,7 +1612,7 @@ body {
 
     font-family: inherit;
 
-    font-size: 0.9rem;
+    font-size: 1.5rem;
 
     outline: none;
 
@@ -1662,7 +1662,7 @@ body {
 
     font-family: inherit;
 
-    font-size: 0.95rem;
+    font-size: 1.3rem;
 
     font-weight: 600;
 
@@ -1822,4 +1822,79 @@ body {
         font-size: 1.1rem;
     }
 
+}
+/* =========================================================
+   FINAL RESPONSIVE FIXES
+   Desktop + Tablet + Mobile
+   ========================================================= */
+html, body { width:100%; max-width:100%; overflow-x:hidden; }
+img { max-width:100%; }
+
+@media (max-width:1100px){
+  #one{padding:70px 45px}.content{gap:35px}.left{width:55%}.right{width:45%}
+  .icon{width:min(390px,100%)}.name{font-size:clamp(4.2rem,6vw,5.5rem)}
+  .h2{font-size:2.5rem}.quote{font-size:2.5rem}.about{padding:70px 40px}
+  .contact-section{padding-left:5%;padding-right:5%}
+}
+
+@media (max-width:900px){
+  #one{min-height:100svh;padding:90px 30px 120px}
+  .content{flex-direction:column;justify-content:center;text-align:center;gap:35px}
+  .left,.right{width:100%;max-width:100%}.left{display:flex;flex-direction:column;align-items:center}
+  .right{justify-content:center}.icon{width:min(390px,70vw)}
+  .buttons{justify-content:center;flex-wrap:wrap}
+  .about{min-height:auto;padding:110px 30px 100px}.about-card{width:min(760px,100%);max-width:100%}
+  .profile-image{left:auto;right:35px;transform:none}
+  .projects{min-height:80vh;padding:80px 30px 110px}
+  .contact-container{grid-template-columns:1fr;max-width:800px}
+  #one > .shape,.contact-section > .shape{display:none}
+}
+
+@media (max-width:600px){
+  html{font-size:10px} body{min-width:320px}
+  #one{min-height:100svh;padding:85px 20px 120px}.content{gap:25px}
+  .hello{font-size:1.7rem;margin-bottom:12px}
+  .name{font-size:clamp(3.6rem,12vw,5rem);line-height:1.08}
+  .h2{font-size:2.1rem;margin-top:15px}
+  .quote{margin-top:25px;font-size:2.3rem;line-height:1.5}.quote span{font-size:1.55rem;line-height:1.6}.quote br{display:none}
+  .buttons{width:100%;gap:12px;margin-top:28px;flex-direction:column;align-items:stretch}
+  .hire,.cv{width:100%;padding:14px 20px;font-size:1.65rem;text-align:center}.right{margin-top:5px}
+  .icon{width:min(310px,82vw)}
+
+  .about{min-height:100svh;padding:100px 18px 90px}.about-card{width:100%;padding:75px 24px 30px;border-radius:28px}
+  .about-card h2{font-size:3rem;margin-bottom:18px}.about-card p{font-size:1.25rem;line-height:1.8}
+  .profile-image{width:115px;height:115px;top:-58px;right:20px;border-width:4px}
+
+  .skills{min-height:100svh;padding:80px 18px 110px}.skills-heading{font-size:3rem;gap:7px}
+  .skills-subtitle{max-width:95%;font-size:1.15rem;line-height:1.7}.technical-skills{margin-top:40px}
+  .technical-container{gap:12px}.technical-card{min-width:0;width:auto;max-width:100%;padding:14px 18px;font-size:.9rem;white-space:normal}
+
+  .projects{min-height:100svh;padding:80px 18px 110px}.projects-heading{font-size:3rem;gap:7px}
+  .projects-subtitle{max-width:95%;font-size:1.15rem;line-height:1.8}
+
+  .contact-section{min-height:100svh;padding:75px 18px 120px}.contact-header{margin-bottom:35px}
+  .small-title{font-size:.72rem;letter-spacing:2.5px}.contact-header h1{font-size:clamp(3rem,11vw,4.5rem)}
+  .contact-intro{font-size:1rem;line-height:1.7}.contact-container{width:100%;gap:22px}
+  .contact-card,.form-card{width:100%;padding:26px 20px;border-radius:22px}.contact-card h2{font-size:1.9rem}
+  .card-description{font-size:1.05rem;line-height:1.75}.email-box{min-width:0;gap:10px;padding:13px}
+  .email-box p{font-size:1.05rem;overflow-wrap:anywhere}.email-box .arrow{flex-shrink:0}
+  .social-links{grid-template-columns:1fr 1fr;gap:10px}.social{height:50px;padding:0 12px;gap:8px;font-size:1.05rem}
+  .form-heading{gap:12px;margin-bottom:24px}.form-icon{width:48px;height:48px;flex-shrink:0}.form-heading h2{font-size:1.5rem}
+  .input-row{grid-template-columns:1fr;gap:0}.input-group input,.input-group textarea{font-size:1.05rem;padding:13px 14px}
+  .send-button{padding:15px 18px}
+  .bottom-nav{width:calc(100% - 24px);max-width:430px;height:62px;bottom:max(10px,env(safe-area-inset-bottom));padding:5px 7px;border-radius:40px}
+  .nav-item{width:48px;height:48px;font-size:1.05rem}
+}
+
+@media (max-width:380px){
+  #one{padding-left:15px;padding-right:15px}.name{font-size:3.4rem}.h2{font-size:1.9rem}
+  .quote{font-size:2rem}.quote span{font-size:1.4rem}.about{padding-left:12px;padding-right:12px}
+  .about-card{padding-left:18px;padding-right:18px}.profile-image{width:95px;height:95px;right:14px;top:-48px}
+  .skills,.projects,.contact-section{padding-left:12px;padding-right:12px}.social-links{grid-template-columns:1fr}
+  .nav-item{width:44px;height:44px}
+}
+
+@media (hover:none) and (pointer:coarse){
+  .technical-card:hover,.social:hover,.email-box:hover,.send-button:hover{transform:none}
+  .technical-card:active,.social:active{transform:scale(.97)}
 }
